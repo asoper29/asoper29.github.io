@@ -5,11 +5,9 @@
     </head>
      <body>
         {% if page.image %}
-        <div class="article-image">
-          <div class="post-image-image" style="background-image: url({% if page.image %}{{ page.image }}{% endif %})">
-            Post Image
-          </div>
-        </div>
+          <img src="{{ page.image }}" class="img-responsive" alt="Responsive image">
+        {% endif %}
+          
         {% include header.html %}
         {{content}}
     </body>
