@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<!-- CDN for JQuery library -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <img src="/images/space.jpg" class="img-responsive" alt="Responsive image">
 
