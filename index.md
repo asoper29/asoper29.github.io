@@ -5,8 +5,12 @@ layout: default
 <img src="/images/space.jpg" class="img-responsive" alt="Responsive image">
 
 <div class="container">
-  <div class="page-header">
-    <h1>Alex Soper <small><i>The Iron Yard Experience - Orlando Front End Engineering Edition</i></small></h1>
+  <div class="center-block">
+    <div class="page-header">
+      <h1><Alex Soper</h1>
+      <h4><i>The Iron Yard Experience - Orlando Front End Engineering Edition</i></h4>
+    </div>
+  </div>
 </div>
 
 #### Blog Posts
