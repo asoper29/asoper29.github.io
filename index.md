@@ -4,12 +4,12 @@ layout: default
 
 <img src="/images/space.jpg" class="img-responsive" alt="Responsive image">
 
+<div class="container">
+  <div class="page-header">
+    <h1>Alex Soper <small><i>The Iron Yard Experience - Orlando Front End Engineering Edition</i></small></h1>
+</div>
 
-# Alex Soper
-
-<h6><i>The Iron Yard Experience - Orlando Front End Engineering Edition</i></h6>
-
-## Blog Posts
+#### Blog Posts
 
 * [Joining the dark side and an epiphany...](/2014/09/24/day-three)
 
@@ -20,7 +20,7 @@ layout: default
 * [I'm the Juggernaut!](/2014/09/19/pre-tiy)
 
 
-## My Repositories
+#### My Repositories
 
 * [ASoper Blog](https://github.com/asoper29/asoper29.github.io)
 
