@@ -7,11 +7,12 @@ layout: default
 <div class="container">
   <div class="center-block">
     <div class="page-header">
-      <h1><Alex Soper</h1>
+      <h1>Alex Soper</h1>
       <h4><i>The Iron Yard Experience - Orlando Front End Engineering Edition</i></h4>
     </div>
   </div>
 </div>
+
 
 #### Blog Posts
 
@@ -29,4 +30,6 @@ layout: default
 * [ASoper Blog](https://github.com/asoper29/asoper29.github.io)
 
 * [The Iron Yard Assignments](https://github.com/asoper29/TIY-Assignments)
+
+
 
