@@ -7,8 +7,10 @@
         {% if page.image %}
           <img src="{{ page.image }}" class="img-responsive" alt="Responsive image">
         {% endif %}
-          
+
         {% include header.html %}
-        {{content}}
+        <div class="posts">
+          {{content}}
+        </div>
     </body>
 </html>
