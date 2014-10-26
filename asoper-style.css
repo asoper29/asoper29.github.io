@@ -16,3 +16,8 @@
   width: 80%;
   margin: 20px auto;
 }
+
+ul.posts span {
+  color: #aaa;
+  font-size: 80%;
+}
