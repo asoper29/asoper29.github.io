@@ -10,11 +10,13 @@
   width: 50%;
   height: auto;
   margin: 0 auto;
+  font-size: 14pt;
 }
 
 .myposts{
   width: 80%;
   margin: 20px auto;
+  font-size: 14pt;
 }
 
 ul.posts span {
