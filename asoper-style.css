@@ -1,15 +1,13 @@
 .soper{
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
 
 .TIY{
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
 
 .contain{
-  width: 70%;
+  width: 50%;
   height: auto;
   margin: 0 auto;
 }
