@@ -9,13 +9,13 @@
 .contain{
   width: 50%;
   height: auto;
-  margin: 0 auto;
+  margin: 10% auto;
   font-size: 14pt;
 }
 
 .myposts{
   width: 80%;
-  margin: 20px auto;
+  margin: 7% auto;
   font-size: 14pt;
 }
 
@@ -25,4 +25,8 @@ ul.posts span {
 }
 .img-responsive {
   margin: 35pt auto;
+}
+.h3 {
+  margin-top: 20pt;
+  margin-bottom: 25pt;
 }
