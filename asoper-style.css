@@ -2,13 +2,25 @@
   text-align: center;
 }
 #author {
-  background-image: /images/author.jpg;
-  margin-top: -50px;
-  border: 5pt solid white;
+  background-image: url(/images/author.jpg);
+  margin:5% -20%;
+  float: right;
   border-radius: 50%;
   width: 90px;
   height: 90px;
   background-size: contain;
+}
+#twitter {
+  margin:5% -24%;
+  float: right;
+}
+#facebook {
+  margin:5% -28%;
+  float: right;
+}
+#github {
+  margin:5% -32%;
+  float: right;
 }
 .TIY{
   text-align: center;
