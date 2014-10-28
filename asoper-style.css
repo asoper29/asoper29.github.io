@@ -19,7 +19,7 @@
   font-size: 16pt;
 }
 #blog {
-  font-size: 24pt;
+  font-size: 22pt;
   width: 17%;
   margin: 0 auto;
 }
@@ -32,10 +32,13 @@
   margin: -118% 5% 5% -20%;
 }
 .contain{
-  width: 75%;
+  width: 70%;
   height: auto;
-  margin: 5% 0% 5% 15%;
+  margin: 5% 0% 5% 20%;
   font-size: 14pt;
+}
+.icon-facebook{
+  margin: 5% 2% 5% 34%;
 }
 .post-title{
   font-size: 18pt;
