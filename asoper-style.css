@@ -1,7 +1,7 @@
 .soper{
   text-align: center;
 }
-#author {
+/*#author {
   background-image: url(/images/author.jpg);
   margin:5% -20%;
   float: right;
@@ -9,39 +9,37 @@
   width: 90px;
   height: 90px;
   background-size: contain;
-}
-#twitter {
-  margin:5% -24%;
-  float: right;
-}
-#facebook {
-  margin:5% -28%;
-  float: right;
-}
-#github {
-  margin:5% -32%;
-  float: right;
+}*/
 }
 .TIY{
   text-align: center;
-  padding: 5%;
-  margin-bottom: 10%;
+  padding-bottom: 5%;
+  margin: 0% 21% 5% 10%;
   border-bottom: 2pt solid #aaa;
   font-size: 16pt;
 }
 #blog {
-  font-size: 36pt;
-  width: 35%;
+  font-size: 24pt;
+  width: 17%;
   margin: 0 auto;
 }
-#repo{
-
+#h3repo{
+  float: left;
+  margin: -122% 6% 5% -18%;
+}
+#ulrepo{
+  float: left;
+  margin: -118% 5% 5% -20%;
 }
 .contain{
   width: 75%;
   height: auto;
-  margin: 5% auto;
+  margin: 5% 0% 5% 15%;
   font-size: 14pt;
+}
+.post-title{
+  font-size: 18pt;
+  margin-bottom:20px;
 }
 
 .post-meta{
@@ -56,10 +54,6 @@
   font-size: 14pt;
 }
 
-ul.posts span {
-  color: #aaa;
-  font-size: 80%;
-}
 .img-responsive {
   margin: 35pt auto;
 }
