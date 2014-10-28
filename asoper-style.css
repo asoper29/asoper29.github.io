@@ -10,18 +10,12 @@
 .tiy{
   text-align: center;
   padding-bottom: 5%;
-  margin: 0% 21% 5% 10%;
-  border-bottom: 2pt solid #aaa;
   font-size: 16pt;
 }
 .icon-facebook{
-  margin: 0% 0% 0% 46%;
+  margin: 0% 0% 0% 43%;
 }
-#blog {
-  font-size: 22pt;
-  width: 17%;
-  margin: 0 auto;
-}
+
 .post-title{
   font-size: 18pt;
   margin-bottom:20px;
