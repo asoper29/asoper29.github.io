@@ -29,14 +29,27 @@
   border-bottom: 2pt solid #aaa;
   font-size: 16pt;
 }
+#blog {
+  font-size: 36pt;
+  width: 35%;
+  margin: 0 auto;
+}
+#repo{
 
+}
 .contain{
-  width: 50%;
+  width: 75%;
   height: auto;
   margin: 5% auto;
   font-size: 14pt;
 }
 
+.post-meta{
+  color: #82CAFF;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+  border-bottom: 2pt solid #aaa;
+}
 .myposts{
   width: 80%;
   margin: 7% auto;
