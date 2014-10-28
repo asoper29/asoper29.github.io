@@ -23,3 +23,6 @@ ul.posts span {
   color: #aaa;
   font-size: 80%;
 }
+.img-responsive {
+  margin: 35pt auto;
+}
