@@ -2,7 +2,7 @@
   text-align: center;
 }
 #author {
-  background-image: /images/author.jpg
+  background-image: /images/author.jpg;
   margin-top: -50px;
   border: 5pt solid white;
   border-radius: 50%;
