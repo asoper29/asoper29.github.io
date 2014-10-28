@@ -1,18 +1,7 @@
-
-/*#author {
-  background-image: url(/images/author.jpg);
-  margin:5% -20%;
-  float: right;
-  border-radius: 50%;
-  width: 90px;
-  height: 90px;
-  background-size: contain;
-}*/
-}
 .contain{
   width: 70%;
   height: auto;
-  margin: 5% 0% 5% 20%;
+  margin: 5% auto;
   font-size: 14pt;
 }
 .soper{
@@ -33,16 +22,6 @@
   width: 17%;
   margin: 0 auto;
 }
-/*#h3repo{
-  float: left;
-  margin: -122% 6% 5% -18%;
-}
-#ulrepo{
-  float: left;
-  margin: -118% 5% 5% -20%;*/
-}
-
-
 .post-title{
   font-size: 18pt;
   margin-bottom:20px;
