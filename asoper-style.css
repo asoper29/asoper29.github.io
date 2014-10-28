@@ -1,15 +1,27 @@
 .soper{
   text-align: center;
 }
-
+#author {
+  background-image: /images/author.jpg
+  margin-top: -50px;
+  border: 5pt solid white;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  background-size: contain;
+}
 .TIY{
   text-align: center;
+  padding: 5%;
+  margin-bottom: 10%;
+  border-bottom: 2pt solid #aaa;
+  font-size: 16pt;
 }
 
 .contain{
   width: 50%;
   height: auto;
-  margin: 10% auto;
+  margin: 5% auto;
   font-size: 14pt;
 }
 
