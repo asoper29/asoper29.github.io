@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  
+title:  How about a nice game of chess?
 image: /images/juggernaut.jpg
 ---
 
