@@ -5,11 +5,6 @@
   font-size: 14pt;
 }
 
-#aside {
-  position: fixed;
-  left: 0;
-}
-
 #aside-header {
   margin: 2% auto 0 auto;
   text-align: center;
