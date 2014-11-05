@@ -1,9 +1,27 @@
-.contain{
+#contain{
   width: 75%;
   height: auto;
   margin: 5% auto;
   font-size: 14pt;
 }
+
+#aside {
+  position: fixed;
+  left: 0;
+}
+
+#aside-header {
+  margin: 2% auto 0 auto;
+  text-align: center;
+}
+
+.author{
+  border-radius: 50%;
+  height: 5em;
+  width: 5em;
+  margin-top: 5%;
+}
+
 .soper{
   text-align: center;
 }

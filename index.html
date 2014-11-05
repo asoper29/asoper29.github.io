@@ -18,26 +18,39 @@ title: ASoper Blog
           <i>The Iron Yard Experience - Orlando Front End Engineering Edition</i>
         </h2>
 
-        <a class="icon-facebook" href="https://facebook.com/asoper29">
-          <i class="fa fa-facebook-square"></i>
-        </a>
-
-        &nbsp;&nbsp;·&nbsp;&nbsp;
-
-        <a class="icon-twitter" href="https://twitter.com/asoper29">
-          <i class="fa fa-twitter"></i>
-        </a>
-
-        &nbsp;&nbsp;·&nbsp;&nbsp;
-
-        <a class="icon-github" href="https://github.com/asoper29">
-          <i class="fa fa-github"></i>
-        </a>
-
         <hr>
 
+        <div class-"col-md-4" id="aside">
+          <section id="aside-header">
 
-        <div class="contain">
+            <img class="author" src="/images/author.jpg">
+
+            <h3>Alex Soper</h3>
+
+            <nav class="social">
+
+              <a class="icon-facebook" href="https://facebook.com/asoper29">
+                <i class="fa fa-facebook-square"></i>
+              </a>
+
+              &nbsp;&nbsp;·&nbsp;&nbsp;
+
+              <a class="icon-twitter" href="https://twitter.com/asoper29">
+                <i class="fa fa-twitter"></i>
+              </a>
+
+              &nbsp;&nbsp;·&nbsp;&nbsp;
+
+              <a class="icon-github" href="https://github.com/asoper29">
+                <i class="fa fa-github"></i>
+              </a>
+
+            </nav>
+
+          </section>
+        </div>
+
+        <div class="col-md-8" id="contain">
           {% for post in site.posts %}
           <article class="posts" itemscope itemtype="http://schema.org/BlogPosting" role="article">
             <div class="article-item">
@@ -54,13 +67,6 @@ title: ASoper Blog
           </article>
           {% endfor %}
         </div>
-
-        <!-- <ul class="posts">
-          {% for post in site.posts %}
-            <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-        </ul> -->
-
 
         <!-- <h3 id="h3repo">My Repositories</h3>
 
