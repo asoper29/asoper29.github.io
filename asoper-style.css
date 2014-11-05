@@ -2,6 +2,9 @@
   height: auto;
   margin: 5% auto;
   font-size: 14pt;
+  border-left: 2pt solid #eee;
+  padding-left: 8%;
+  padding-right: 10%;
 }
 
 #aside-header {
