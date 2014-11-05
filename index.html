@@ -10,63 +10,72 @@ title: ASoper Blog
     <img src="/images/space.jpg" class="img-responsive" alt="Responsive image">
 
 
-    <div class="contain">
+    <div class="title-body">
 
-        <h1 class="soper">ASoper</h1>
+      <h1 class="soper">ASoper</h1>
 
-        <h2 class="tiy">
-          <i>The Iron Yard Experience - Orlando Front End Engineering Edition</i>
-        </h2>
+      <h2 class="tiy">
+        <i>The Iron Yard Experience - Orlando Front End Engineering Edition</i>
+      </h2>
 
-        <hr>
+    </div>
 
-        <div class-"col-md-4" id="aside">
-          <section id="aside-header">
+    <hr>
 
-            <img class="author" src="/images/author.jpg">
+    <div class="row" id="main">
 
-            <h3>Alex Soper</h3>
+      <div class-"col-md-4" id="aside">
 
-            <nav class="social">
+        <section id="aside-header">
 
-              <a class="icon-facebook" href="https://facebook.com/asoper29">
-                <i class="fa fa-facebook-square"></i>
-              </a>
+          <img class="author" src="/images/author.jpg">
 
-              &nbsp;&nbsp;·&nbsp;&nbsp;
+          <h3>Alex Soper</h3>
 
-              <a class="icon-twitter" href="https://twitter.com/asoper29">
-                <i class="fa fa-twitter"></i>
-              </a>
+          <nav class="social">
 
-              &nbsp;&nbsp;·&nbsp;&nbsp;
+            <a class="icon-facebook" href="https://facebook.com/asoper29">
+              <i class="fa fa-facebook-square"></i>
+            </a>
 
-              <a class="icon-github" href="https://github.com/asoper29">
-                <i class="fa fa-github"></i>
-              </a>
+            &nbsp;&nbsp;·&nbsp;&nbsp;
 
-            </nav>
+            <a class="icon-twitter" href="https://twitter.com/asoper29">
+              <i class="fa fa-twitter"></i>
+            </a>
 
-          </section>
-        </div>
+            &nbsp;&nbsp;·&nbsp;&nbsp;
 
-        <div class="col-md-8" id="contain">
-          {% for post in site.posts %}
-          <article class="posts" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-            <div class="article-item">
-              <header class="post-header">
-                <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
-              </header>
-              <section class="post-excerpt" itemprop="description">
-                <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-              </section>
-              <div class="post-meta">
-                <time datetime="{{ post.date}}">{{ post.date | date_to_long_string }}</time>
-              </div>
-            <div>
-          </article>
-          {% endfor %}
-        </div>
+            <a class="icon-github" href="https://github.com/asoper29">
+              <i class="fa fa-github"></i>
+            </a>
+
+          </nav>
+
+        </section>
+
+      </div>
+
+      <div class="col-md-8" id="contain">
+        {% for post in site.posts %}
+        <article class="posts" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <div class="article-item">
+            <header class="post-header">
+              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
+            </header>
+            <section class="post-excerpt" itemprop="description">
+              <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+            </section>
+            <div class="post-meta">
+              <time datetime="{{ post.date}}">{{ post.date | date_to_long_string }}</time>
+            </div>
+          </div>
+        </article>
+        {% endfor %}
+       </div>
+
+     </div>
+
 
         <!-- <h3 id="h3repo">My Repositories</h3>
 
