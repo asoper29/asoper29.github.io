@@ -1,5 +1,4 @@
 #contain{
-  width: 75%;
   height: auto;
   margin: 5% auto;
   font-size: 14pt;
@@ -25,13 +24,11 @@
   padding-bottom: 5%;
   font-size: 16pt;
 }
-.icon-facebook{
-  margin: 0% 0% 0% 43%;
-}
 
 .post-title{
   font-size: 18pt;
   margin-bottom:20px;
+  text-align: center;
 }
 
 .post-meta{
