@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  
+title: Test, Test, and Test Some More
 image:
+date: October 13, 2014
 ---
 
 Week thee of The Iron Yard is over, and it was quite an eventful week. We started the week by delving into Object Oriented Programming and converting all of our previous assignments into OOP. At first I wasn't sure what the difference was, just seemed like a little change of structure. That "little" change in structure was a big deal. OOP allows you to: avoid cluttering the global name space, reuse objects, prevent redundant code, and allows for easier maintenance of code.
