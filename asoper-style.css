@@ -216,7 +216,7 @@ h5#section {
   right: 0;
 }
 #social h3 {
-  margin-top: 4%;
+  margin-top: 10%;
 }
 #social a {
   color: white;
@@ -228,16 +228,12 @@ a:hover .fa-twitter, .navbar-default .navbar-nav > li > a.fa-twitter:hover {
   color: #a6daef;
   background-color: none;
 }
-a:hover .fa-instagram, .navbar-default .navbar-nav > li > a.fa-instagram:hover {
-  color: forestgreen;
+a:hover .fa-facebook, .navbar-default .navbar-nav > li > a.fa-instagram:hover {
+  color: navy;
   background-color: none;
 }
 a:hover .fa-github, .navbar-default .navbar-nav > li > a.fa-github:hover   {
   color: mediumpurple;
-  background-color: none;
-}
-a:hover .fa-linkedin, .navbar-default .navbar-nav > li > a.fa-linkedin:hover   {
-  color: navy;
   background-color: none;
 }
 footer {
@@ -328,7 +324,7 @@ p.datePost {
  }
  .socialFoot {
    width: 80%;
-   margin: 0 auto;
+   margin: 10% auto;
  }
 .aboutL, .aboutC, .aboutR {
   margin: 0 auto;
