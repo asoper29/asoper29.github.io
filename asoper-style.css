@@ -23,7 +23,7 @@ body {
   left: 10%;
   right: 10%;
 }
-#page-title .head-img {
+#head-img {
   z-index: -1;
   width: 100%;
   position: absolute;
