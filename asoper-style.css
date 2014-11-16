@@ -45,11 +45,9 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
 #about {
   padding-bottom: 3%;
   padding-top: 2%;
-  background-color: rgba(200, 189, 244, 0.7); /*#C8BDF4;  rgba(24,188,156,0.7); */
   position: relative;
   overflow: hidden;
 }
@@ -63,9 +61,8 @@ body {
 
 
 }
-
-#ironing-board {
-    width: 600px;
+#posts {
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -74,20 +71,11 @@ a:link {
     color: #3B71EC;
     font-weight: bold;
 }
-
 a:visited {
     text-decoration: none;
     color: #3B71EC;
     font-weight: bold;
 }
-
-/* a:hover {
-    text-decoration: none;
-    background-color: #3B71EC;
-    color: #FFF;
-    font-weight: bold;
-} */
-
 ul li a:link {
     text-decoration: none;
     color: #FFF;
@@ -97,7 +85,6 @@ ul li a:visited {
     text-decoration: none;
     color: #FFF;
 }
-
 ul li a:hover {
     text-decoration: none;
     background-color: #fff;
@@ -180,9 +167,6 @@ h5#section {
 
  #projects {
   padding-bottom: 10ex;
-}
-div#posts {
-  width: 50%;
 }
 
 #posts h4 a {
@@ -276,30 +260,41 @@ footer {
   padding: 1.5%;
   padding-bottom: 3%;
 }
-.topL, .botR {
-  border-radius: 2em 8em 2em 8em;
+.topL {
+  border-radius: 6em 2em 2em 2em;
 }
 .topC {
-  border-radius: 8em 8em 2em 2em;
+  border-radius: 2em;
 }
-.topR, .botL {
-  border-radius: 8em 2em 8em 2em;
+.topR {
+  border-radius: 2em 6em 2em 2em;
+}
+.botL {
+  border-radius: 2em 2em 2em 6em;
 }
 .botC {
-  border-radius: 2em 2em 8em 8em;
+  border-radius: 2em;
 }
-
-.surf.port-left-top, .surf.port-right-bottom  {
-  border-radius: 2em 8em 2em 8em;
+.botR {
+  border-radius: 2em 2em 6em 2em;
 }
-.surf.port-left-bottom, .surf.port-right-top {
-  border-radius: 8em 2em 8em 2em;
+.surf.port-left-top {
+  border-radius: 6em 2em 2em 2em;
 }
 .surf.port-center-top {
-  border-radius: 8em 8em 2em 2em;
+  border-radius: 2em;
+}
+.surf.port-right-top {
+  border-radius: 2em 6em 2em 2em;
+}
+.surf.port-left-bottom {
+  border-radius: 2em 2em 2em 6em;
 }
 .surf.port-center-bottom {
-  border-radius: 2em 2em 8em 8em;
+  border-radius: 2em;
+}
+.surf.port-right-bottom  {
+  border-radius: 2em 2em 6em 2em;
 }
 .caption {
   text-align: center;
@@ -318,7 +313,7 @@ footer {
   margin-bottom: 0;
  }
 p.datePost {
-  margin-bottom: 5%;
+  margin-bottom: 2%;
  }
  .socialFoot {
    width: 80%;
