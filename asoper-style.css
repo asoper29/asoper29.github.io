@@ -2,11 +2,15 @@ body {
     margin: 0;
     color: #777777;
 }
+
+.main{
+  padding: 0;
+}
+
 #page-title {
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(171, 225, 253, 0.7);  /*#abe1fd; rgba(24,188,156,0.7); */
-    min-height: 650px;
+    height: 650px;
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -46,25 +50,19 @@ body {
     margin-right: auto;
 }
 #about {
-  padding-bottom: 3%;
-  padding-top: 2%;
+  padding: 0;
   position: relative;
-  overflow: hidden;
+  background-color: black;
 }
-#about .backImage {
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 108%;
 
-
+#intro {
+  text-align: center;
 }
-#posts {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+.auto-post {
+  list-style: none;
+}
+.auto-post li {
+  padding-bottom: 5%;
 }
 a:link {
     text-decoration: none;
@@ -143,10 +141,7 @@ p {
     padding: 0 20% 0 20%;
     line-height: 1.5pc;
 }
-p.post {
-    padding: 0% 39%;
-    line-height: 1.5pc;
-}
+
 h4 {
     text-align: center;
     color: #f4858e;
@@ -168,7 +163,10 @@ h5#section {
  #projects {
   padding-bottom: 10ex;
 }
-
+#posts {
+    width: 100%;
+    margin: 5% auto;
+}
 #posts h4 a {
   text-align: center;
   padding: 2ex;
@@ -238,13 +236,13 @@ footer {
 }
 .aboutImages {
   width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 5% auto;
 }
 .aboutImages img {
   display: inline;
-  padding: 2% 14%;
-  width: 100%;
+  height: 15em;
+  width: 15em;
+  border-radius: 50%;
 }
 .port {
   width: 80%;
@@ -299,16 +297,16 @@ footer {
 .caption {
   text-align: center;
 }
-.ironBoard {
+.posts {
   list-style-type: none;
   text-align: center;
   padding: 0;
   font-size: 14pt;
 }
-.ironBoard li (text){
+.posts li (text){
   width: 40%;
 }
-.ironBoard li a h3 {
+.posts li a h3 {
   color: #313131;
   margin-bottom: 0;
  }
