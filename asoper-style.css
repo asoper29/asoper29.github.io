@@ -65,11 +65,6 @@ body {
 .auto-post li {
   padding-bottom: 5%;
 }
-time {
-  padding: 0 33%;
-  color: #ccc;
-  font-style: italic;
-}
 a:link {
     text-decoration: none;
     color: #3B71EC;
@@ -332,6 +327,9 @@ footer {
  }
 p.datePost {
   margin-bottom: 2%;
+  padding: 0 33%;
+  color: #ccc;
+  font-style: italic;
  }
  .socialFoot {
    width: 80%;
