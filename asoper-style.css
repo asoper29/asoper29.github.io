@@ -383,6 +383,10 @@ p.datePost {
    .caption p {
      display: none;
    }
+   #projects, #social {
+     padding-bottom: 0;
+     min-height: 300px;
+   }
 }
 @media (max-width: 480px){
    #page-title {
