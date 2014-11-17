@@ -33,7 +33,7 @@ title: ASoper Blog
     {% for post in site.posts %}
       <li>
         <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
-        <p class="datePost">{{ post.posted }}</p>
+        <p class="datePost">{{ post.date }}</p>
           {{ post.excerpt }}
       </li>
     {% endfor %}

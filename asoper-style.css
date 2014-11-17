@@ -337,6 +337,16 @@ p.datePost {
   padding: 0 5%;
   text-align: center;
 }
+.myposts{
+  width: 80%;
+  margin: 7% auto;
+  font-size: 14pt;
+}
+
+.myposts h3 {
+  margin-top: 20pt;
+  margin-bottom: 25pt;
+}
 @media (max-width: 1200px){
    #page-title {
      min-height: 500px;
