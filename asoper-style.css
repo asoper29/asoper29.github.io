@@ -153,7 +153,7 @@ h4 {
     text-align: center;
     color: red;
     margin-top: 1%;
-    font-size: 22px;
+    font-size: 20px;
 }
 .content-image {
   width: 60%;
@@ -200,7 +200,7 @@ h5#section {
 .auto-post li a h4:hover {
   color: crimson;
   font-weight: bolder;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .fa-3x {
