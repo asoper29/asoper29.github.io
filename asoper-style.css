@@ -116,6 +116,9 @@ div #navbar {
     display: inline;
 
 }
+.thumbnail {
+  margin: 20px 0 10px 0;
+}
 h3 {
     margin: 6% 0 2%;
     clear: right;
@@ -359,6 +362,9 @@ p.datePost {
    .page-header h1 {
      font-size: 300%;
    }
+   .aboutR {
+     float: right;
+   }
    #projects, #social {
      padding-bottom: 0;
      min-height: 500px;
@@ -385,7 +391,8 @@ p.datePost {
    .page-header h1 {
      font-size: 200%;
    }
-   #social {
+   #projects, #social {
+     padding-bottom: 0;
      min-height: 300px;
    }
 }
