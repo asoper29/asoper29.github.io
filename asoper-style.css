@@ -343,6 +343,10 @@ p.datePost {
   font-size: 14pt;
 }
 
+.myposts p {
+  padding: 0;
+}
+
 .myposts h3 {
   margin-top: 20pt;
   margin-bottom: 25pt;
