@@ -151,8 +151,9 @@ p {
 
 h4 {
     text-align: center;
-    color: #f4858e;
+    color: red;
     margin-top: 1%;
+    font-size: 22px;
 }
 .content-image {
   width: 60%;
@@ -195,15 +196,13 @@ h5#section {
   margin: 0 auto;
   display: block;
 }
-#posts ul li a {
-  color: #e8e7e5;
+
+.auto-post li a h4:hover {
+  color: crimson;
+  font-weight: bolder;
+  font-size: 24px;
 }
-#posts ul li a:hover {
-  color: green;
-}
-#posts ul li a:visited {
-  color: #e8e7e5;
-}
+
 .fa-3x {
   padding: 0 1em;
 }
