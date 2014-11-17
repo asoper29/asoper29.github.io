@@ -116,8 +116,11 @@ h3 {
     margin: 6% 0 2%;
     clear: right;
     text-align: center;
-    color: #fff;
+    color: #313131;
     font-size: 25pt;
+}
+#social h3, #projects h3{
+  color: #fff;
 }
 #head {
     width: 100%;
