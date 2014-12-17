@@ -313,7 +313,10 @@ footer {
   text-align: center;
 }
 .project {
-  height: 185px;
+  height: 200px;
+}
+.project > a > img {
+  height: 100%;
 }
 .posts {
   list-style-type: none;
