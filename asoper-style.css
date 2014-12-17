@@ -312,6 +312,9 @@ footer {
 .caption {
   text-align: center;
 }
+.project {
+  height: 185px;
+}
 .posts {
   list-style-type: none;
   text-align: center;
