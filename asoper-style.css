@@ -55,6 +55,10 @@ body {
   background-color: black;
 }
 
+#about > p {
+  color: #aaa;
+}
+
 #intro {
   text-align: center;
 }
@@ -116,11 +120,8 @@ h3 {
     margin: 6% 0 2%;
     clear: right;
     text-align: center;
-    color: #313131;
+    color: #fff;
     font-size: 25pt;
-}
-#social h3, #projects h3{
-  color: #fff;
 }
 #head {
     width: 100%;
